@@ -1,5 +1,5 @@
 {
-  "name": "promptmaster-pro",
+  "name": "promptmaster-by-sajol",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -10,14 +10,13 @@
     "electron-builder": "^24.6.0"
   },
   "build": {
-    "appId": "com.promptmaster.pro",
-    "productName": "PromptMaster Pro",
+    "appId": "com.sajol.promptmaster",
+    "productName": "PromptMaster by Sajol",
     "directories": {
       "output": "dist"
     },
     "files": [
-      "main.js",
-      "package.json"
+      "**/*"
     ],
     "win": {
       "target": "nsis"
